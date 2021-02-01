@@ -1,14 +1,14 @@
 {
   "name": "moxie-checkout",
   "namespace": "moxiesuite",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Checkout specific versions of moxie and associated modules for the purposes of development",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "tc": "./index.js"
+    "mc": "./index.js"
   },
   "repository": {
     "type": "git",
