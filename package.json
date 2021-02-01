@@ -1,7 +1,8 @@
 {
-  "name": "truffle-checkout",
+  "name": "moxie-checkout",
+  "namespace": "moxiesuite",
   "version": "1.4.0",
-  "description": "Checkout specific versions of truffle and associated modules for the purposes of development",
+  "description": "Checkout specific versions of moxie and associated modules for the purposes of development",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,20 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-checkout.git"
+    "url": "git+https://github.com/moxiesuite/moxie-checkout.git"
   },
   "keywords": [
-    "truffle",
-    "ethereum",
+    "moxie",
+    "vapory",
     "git",
     "npm"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-checkout/issues"
+    "url": "https://github.com/moxiesuite/moxie-checkout/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-checkout#readme",
+  "homepage": "https://github.com/moxiesuite/moxie-checkout#readme",
   "dependencies": {
     "github": "^9.2.0",
     "lodash": "^4.17.4",

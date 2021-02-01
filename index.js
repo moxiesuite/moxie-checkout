@@ -22,7 +22,7 @@ if (argv.L) {
   process.exit();
 }
 
-var organization = "trufflesuite";
+var organization = "moxiesuite";
 
 var prepared = {};
 var packages = argv._;
@@ -30,7 +30,7 @@ var packages = argv._;
 var baseBranch = "*";
 
 if (packages.length == 0) {
-  packages = ["truffle:" + baseBranch];
+  packages = ["moxie:" + baseBranch];
 }
 
 // For any package that doesn't specify a branch selector, specify it.
